@@ -7,7 +7,7 @@
     color: white;
 }
 .new-topic input {
-    border: 0;
+    border: 1px solid black;
     border-radius: 20px;
     box-shadow: -1px 1px 3px 1px #33a9b94f;
 }
