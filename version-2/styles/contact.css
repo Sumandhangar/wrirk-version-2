@@ -1,0 +1,136 @@
+.form-control:focus{
+    box-shadow: none;
+    outline: 0;
+    border: 0;
+}
+.form-control:focus-visible{
+    outline: 0;
+}
+input:focus{
+    outline: 0;
+    box-shadow: 0;
+    border: 0;
+}
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form h1{
+    color: white;
+    padding-top: 12rem;
+    font-size: 4rem;
+    font-weight: 900;
+}
+.form-contact{
+    border-radius: 10px;
+}
+.form-contact .topic{
+    font-size: 25px;
+}
+.form-contact button{
+    background: yellow;
+    border-radius: 30px;
+}
+.options{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.options .option-btn{
+   background-color: white;
+   border-radius: 30px;
+   border: 2px solid black;
+}
+.options .option-select-btn{
+    background-color: yellow;
+   
+    border-radius: 30px;
+    border: 2px solid black;
+ }
+.options1 .option-btn{
+    background-color: white;
+   border-radius: 30px;
+   border: 2px solid black;
+}
+.options1 .option-select-btn{
+    background-color: yellow;
+   
+   border: 2px solid black;
+}
+.form-group{
+    display: grid;
+}
+.form-group label{
+    font-size: 18px;
+}
+.form-group .form-control{
+    border-bottom: 2px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+.form-group button{
+    background-color: yellow;
+    border-radius: 30px;
+}
+.research-domain{
+    border-right: 3px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.research-domain h1{
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+}
+.contact-right-column{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.contact-right-column p{
+    color: white;
+    font-size: 20px;
+    padding-left: 5rem;
+    padding-right: 3rem;
+}
+.contact-right-column button{
+    background-color: yellow;
+    border-radius: 30px;
+    margin-left: 5rem;
+}
+@media screen and (max-width:1024px) {
+    .contact-form h1{
+        font-size: 4rem;
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+        text-align: center;
+    }
+    .form-contact .topic{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:767px) {
+    .form-contact .topic{
+        font-size: 25px;
+    }
+    .contact-form h1{
+        font-size: 3rem;
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+    }
+    .options{
+        display: flex;
+    }
+    .options button{
+        margin-top: 1rem;
+    }
+    .research-domain{
+        border-right: none;
+    }
+    .contact-right-column p{
+        padding-left: 2rem;
+    }
+}

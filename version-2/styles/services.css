@@ -1,0 +1,437 @@
+body {
+    overflow-x: hidden;
+}
+.banner-content .content{
+    padding-right: 4rem;
+}
+.banner-content .content h1{
+    color: #268FA7;
+    font-size: 54px;
+    /* padding-top: 6rem; */
+}
+.banner-content .content p{
+    font-size: 1.5rem;
+}
+.heading2{
+    font-size: 54px;
+    color: white;
+    text-align: center;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+.content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.content{
+    padding-top: 0px !important;
+
+}
+.content1 h5{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+.content1 p{
+    color: white;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 18px;
+    text-align: center;
+}
+.content3{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-right: 2px solid yellow;
+}
+.content3 h1{
+    color: white;
+    font-size: 4rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.content5{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content5 h3{
+    font-size: 1.8rem;
+}
+.content5 h1{
+    font-size: 4rem;
+}
+.content5 p{
+    font-size: 1.8rem;
+    text-align: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+.content5 button{
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+    border-radius: 30px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+}
+.content5 span{
+    font-size: 18px;
+    padding-top: 1rem;
+}
+.content6-row{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.content6{
+    border-right: 2px solid yellow;
+}
+.content6 h1{
+    color: white;
+    font-size: 60px;
+    padding-left: 5rem;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    font-weight: bold;
+}
+.content7{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content7 .box{
+    padding-left: 5rem;
+    padding-right: 8rem;
+}
+.content7 .box p{
+    font-size: 1.5rem;
+}
+.content7 .box button{
+    background-color: yellow;
+    border-radius: 30px;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+}
+
+
+.hovering {
+    transition: .5s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid yellow;
+    border-radius: 5px;
+}
+.hovering:hover {
+    background-color: whitesmoke;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    transform: scale(1.1);
+    z-index: 5;
+}
+.hovering:hover .content1{
+    border: none;
+    text-align: center;
+}
+.hovering:hover .content1 h5 {
+    color: darkcyan;
+    padding-top: 1rem;
+}
+.hovering:hover .content1 p{
+    color: darkcyan;
+}
+
+.hovering:hover .heading6 {
+    color: black;
+}
+
+.hovering:hover .content1 .scale-image {
+    transform: scale(1.5);
+}
+
+.content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.content4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content4 p{
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 8rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
+}
+.content4 button{
+    background-color: yellow;
+    border-radius: 30px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    margin-top: 2rem;
+}
+.banner {
+    /* margin-bottom: 8rem; */
+}
+
+.banner-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+.banner-content .content{
+    padding-left: 3rem;
+}
+.banner-content .content .heading {
+    color: darkcyan;
+    padding-top: 5rem;
+    font-size: 4rem;
+    line-height: 80px;
+}
+.banner-content .content  .heading1{
+        padding-top: 0rem;
+        font-size: 25px;
+}
+.banner-content .content button{
+    background-color: yellow;
+    border: none;
+    width: 40%;
+    border-radius: 30px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: .7rem;
+    font-size: 18px;
+}
+.request-section
+{
+    background-image: url('../images/noise.svg');
+    background-color:#268FA7;
+}
+.hero-right
+{
+    background-image: url('../images/services/service-eclipse.png');
+    background-repeat: no-repeat;
+    background-position-y: 117px;
+    background-size: contain;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .banner {
+        margin-bottom: 3rem;
+    }
+    .banner-content .content{
+        padding-right: 0;
+        padding-left: 1rem;
+        padding-top: 3rem;
+    }
+    .banner-content .content h1{
+        font-size: 3rem;
+    }
+    .banner-content .content p{
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .content1 h5{
+        font-size: 3rem;
+        font-weight: bold;
+    }   
+    .content1 p{
+        font-size: 2rem;
+    }
+      .content3{
+          border-right: none;
+          text-align: center;
+      }
+      .content6-row {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .content3 h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: 4rem;
+        font-weight: bold;
+    }
+    .content4{
+        padding-bottom: 3rem;
+    }
+    .content4 p{
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0;
+        text-align: center;
+    }
+    .content5 h3{
+        font-size: 1.8rem;
+    }
+    .content5 h1{
+        font-size: 3rem;
+        text-align: center;
+        font-weight: bold;
+    }
+    .content5 p{
+        font-size: 2rem;
+        text-align: center;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .content5 button{
+        display: flex;
+        justify-content: space-between;
+        background-color: yellow;
+        border-radius: 30px;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        padding-top: .8rem;
+        padding-bottom: .8rem;
+    }
+    .content6 h1{
+        font-size: 3rem;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+    .content7 .box{
+        padding-left: 1rem;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .banner-content .content{
+        padding-right: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+    .banner-content .content h1{
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .heading2{
+        font-size: 3.5rem;
+        font-weight: bold;
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+    }
+    .content1 h5{
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .content1 p{
+        font-size: 1.4rem;
+    }
+    .banner-content .content p{
+        font-size: 1.5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .content3{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .content3 h1{
+        font-size: 3rem;
+        color: white;
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .content4 p{
+        font-size: 1.5rem;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+        text-align: center;
+    }
+    .content5 h3{
+        font-size: 1.5rem;
+    }
+    .content5 h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .content5 p{
+        font-size: 1.5rem;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .content5 button{
+        display: flex;
+        justify-content: space-between;
+        background-color: yellow;
+        border-radius: 30px;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-top: .8rem;
+        padding-bottom: .8rem;
+    }
+    .content6 {
+        border-right: none;
+    }
+    .content6 h1{
+        font-size: 3rem;
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 3rem;
+        text-align: center;
+        font-weight: 800;
+    }
+    .content7 .box{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: center;
+    }
+    .content7 .box button{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+   

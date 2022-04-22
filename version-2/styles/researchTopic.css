@@ -1,0 +1,49 @@
+/* ---------------------------Form CSS Start-------------------- */
+.form-research{
+    border: 1px solid rgb(51, 169, 185);
+}
+.form-research .heading{
+    background-color: rgb(51, 169, 185);
+    color: white;
+}
+.new-topic input {
+    border: 0;
+    border-radius: 20px;
+    box-shadow: -1px 1px 3px 1px #33a9b94f;
+}
+.new-topic input:hover {
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 1px 2px 11px 1px #33a9b996!important;
+}
+.new-topic input:active {
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 1px 2px 11px 1px #33a9b996!important;
+}
+.new-topic .form-control{
+    border-bottom: none;
+    border-radius: 20px;
+}
+.form-control[readonly] {
+    opacity: 1;
+}
+.grad-btn {
+    background: linear-gradient(
+120deg
+,#0490bd,#0b844ed1);
+}
+.grad-btn:hover {
+    box-shadow: 2px 2px 6px 1px grey!important;
+}
+@media screen and (max-width:1024px) {
+    .form-research{
+        margin: auto 7rem;
+    }
+}
+@media screen and (max-width:767px) {
+    .form-research{
+        margin: 0;
+    }
+}
+/* ---------------------------Form CSS End------------------------ */
