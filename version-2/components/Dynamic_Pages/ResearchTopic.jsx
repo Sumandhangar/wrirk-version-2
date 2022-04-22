@@ -27,7 +27,7 @@ export default function ResearchTopic({ post }) {
 
     return (
         <>
-          <div className="container-fluid" style={{background:'darkcyan'}}>
+          <div className="container-fluid" style={{background:'red'}}>
               <div className="row">
                   <div className="col-md-12 text-center text-white pt-5 pb-5">
                       <h1>Research Domain</h1>
